@@ -1,0 +1,22 @@
+.companyList {
+  animation: 10s infinite linear moveCompany;
+}
+@keyframes moveCompany {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -50%;
+  }
+}
+
+.divi {
+  background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+.divis {
+  background: linear-gradient(0deg, #f4f8ff, #fff0);
+}
+
+.foot {
+  background: linear-gradient(to right, #eef9fe, #edf7ff);
+}
